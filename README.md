@@ -1,3 +1,7 @@
+# Plans: common prettier config, dockerization, tailwind, ci/cd ideas, modularization and file structure, common ui module and usage etc.
+
+# TODO turbo.json, building, native code
+
 # Turborepo starter
 
 This is an official npm starter turborepo.
