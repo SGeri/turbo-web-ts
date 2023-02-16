@@ -1,6 +1,8 @@
-# Plans: common prettier config, dockerization, tailwind, ci/cd ideas, modularization and file structure, common ui module and usage etc.
+### Personal notes:
 
-# TODO turbo.json, building, native code
+#### Plans: common prettier config, dockerization, tailwind, ci/cd ideas, modularization and file structure, common ui module and usage etc.
+
+#### TODO turbo.json, building, native code
 
 <p align="center">
    <br/>
@@ -53,7 +55,9 @@ prototyping and development of new projects.
 
 ## Getting Started
 
-- Next runs on local
+- Next runs on port 3000
+- Nest runs on port 3001
+- Expo runs on port 19000
 
 ### 0. Prerequisites
 
@@ -72,6 +76,7 @@ npm install
 ### 3. Run the project in development mode
 
 For local development use the following command:
+Development mode will start each app in watch mode and will restart the app if any changes are detected.
 
 ```
 npm run dev
