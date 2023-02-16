@@ -4,7 +4,7 @@
 
 <p align="center">
    <br/>
-   <a href="https://github.com/SGeri/turbo-web-ts" target="_blank"><img width="200px" src="https://raw.githubusercontent.com/SGeri/turbo-web-ts/main/turbo-web-preview.png" /></a>
+   <a href="https://github.com/SGeri/turbo-web-ts" target="_blank"><img width="1920px" src="https://raw.githubusercontent.com/SGeri/turbo-web-ts/main/turbo-web-preview.png" /></a>
    <h2 align="center">Turbo Web Typescript</h2>
    <p align="center">
    My go-to boilerplate template for fullstack projects built with NextJS, NestJS & Expo.
