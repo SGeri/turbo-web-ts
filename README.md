@@ -2,76 +2,81 @@
 
 # TODO turbo.json, building, native code
 
-# Turborepo starter
+<p align="center">
+   <br/>
+   <a href="https://github.com/SGeri/turbo-web-ts" target="_blank"><img width="200px" src="https://i0.wp.com/noar.hu/wp-content/uploads/2022/10/attesztologo.png?ssl=1" /></a>
+   <h2 align="center">Turbo Web Typescript</h2>
+   <p align="center">
+   My go-to boilerplate template for fullstack projects built with NextJS, NestJS & Expo.
+   </p>
+   <p align="center" style="align: center;">
+      <a href="https://github.com/SGeri/turbo-web-ts">
+        <img alt="stars" src="https://img.shields.io/github/stars/SGeri/turbo-web-ts?style=for-the-badge">
+      </a>
+      <a href="https://github.com/SGeri/turbo-web-ts">
+        <img src="https://img.shields.io/badge/version-1.0.0-<COLOR>?style=for-the-badge" alt="Version"/>
+      </a>
+      <a href="https://github.com/SGeri/turbo-web-ts">
+        <img src="https://img.shields.io/badge/node-16+-blue?style=for-the-badge" alt="Node" />
+      </a>
+      <a href="https://github.com/SGeri/turbo-web-ts">
+        <img src="https://img.shields.io/github/license/SGeri/forrodrot?style=for-the-badge" alt="ISC" />
+      </a>
+   </p>
+</p>
 
-This is an official npm starter turborepo.
+## Overview
 
-## What's inside?
+The main goal of this project is to provide a boilerplate template for fullstack projects built with NextJS, NestJS & Expo. The project is currently still in development, but it is already usable. I am working on implementing my most used libraries and frameworks into this template, so it can be used for rapid
+prototyping and development of new projects.
 
-This turborepo uses [npm](https://www.npmjs.com/) as a package manager. It includes the following packages/apps:
+### Tech Stack
 
-### Apps and Packages
+- [NextJS](https://nextjs.org) - React-based server-side rendering framework with advanced routing and built-in TypeScript support
+  - [Zustand](https://zustand-demo.pmnd.rs) - Simple state management library with first-class React Hooks support [WIP]
+  - [Tailwind](https://tailwindcss.com) - Utility-first CSS framework [WIP]
+  - [Mantine](https://mantine.dev) - React UI Framework [WIP]
+- [NestJS](https://nestjs.com) - NodeJS backend framework for building efficient, scalable and enterprise-grade server-side applications
+  - [Prisma](https://www.prisma.io) - ORM for working with TypeScript [WIP]
+- [Expo](https://expo.io) - React Native framework for building native iOS and Android apps
+  - [Expo Router](https://expo.github.io/router/docs) - Next-like routing for Expo apps [WIP]
+- [Turborepo](https://turbo.build/repo) - Monorepo tooling for rapid development & deployment
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
-- `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `tsconfig`: `tsconfig.json`s used throughout the monorepo
+## Features
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+- Common, unified Prettier configuration [WIP]
+- Common, unified ESLint configuration [WIP]
+- UI package with common components for Next & Expo [WIP]
+- Tailwind Support [WIP]
+- Authentication boilerplate with Nest [WIP]
+- GraphQL [WIP]
 
-### Utilities
+## Getting Started
 
-This turborepo has some additional tools already setup for you:
+- Next runs on local
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+### 0. Prerequisites
 
-### Build
+- [NodeJS 16+](https://nodejs.org/en/download/)
 
-To build all apps and packages, run the following command:
+### 1. Clone repository & install dependencies
 
 ```
-cd my-turborepo
-npm run build
+git clone https://github.com/SGeri/turbo-web-ts.git
+cd turbo-web-ts
+npm install
 ```
 
-### Develop
+### 2. [...to be continued]
 
-To develop all apps and packages, run the following command:
+### 3. Run the project in development mode
+
+For local development use the following command:
 
 ```
-cd my-turborepo
 npm run dev
 ```
 
-### Remote Caching
+## License
 
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
-
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
-
-```
-cd my-turborepo
-npx turbo login
-```
-
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
-
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your turborepo:
-
-```
-npx turbo link
-```
-
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+ISC
